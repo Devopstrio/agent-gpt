@@ -47,11 +47,17 @@ The CLI automates the full deployment process, including:
 ## 🏗️ Architecture
 Explore the core logic and architectural design of AgentGPT:
 
+### 🔄 Multi-Agent Interaction
+The core of AgentGPT is its ability to chain LLM calls to create an autonomous loop. It intelligently processes inputs, generates reasoning paths, and produces structured outputs.
+
 <p align="center">
   <img src="assets/image.png" width="800" alt="LLM Agents Architecture" />
   <br>
   <em>LLM Agents Workflow</em>
 </p>
+
+### 📋 Task Management & Prioritization
+Our agents don't just execute; they plan. The system maintains a dynamic task queue that is constantly re-prioritized based on the results of previous actions, ensuring the most efficient path to your goal.
 
 <p align="center">
   <img src="assets/image copy.png" width="800" alt="Agent Task Flow" />
@@ -59,11 +65,15 @@ Explore the core logic and architectural design of AgentGPT:
   <em>Agent Task Prioritization and Execution Flow</em>
 </p>
 
+### 🏗️ System Architecture Overview
+Built for scalability, the architecture integrates reasoning engines, tool hubs, and memory stores into a unified orchestrator, allowing for complex multi-agent deployments across enterprise applications.
+
 <p align="center">
   <img src="assets/image copy 2.png" width="800" alt="Generic Agent Architecture" />
   <br>
   <em>Generic Agent Architecture Overview</em>
 </p>
+
 
 
 ## Prerequisites :point_up:
@@ -88,14 +98,14 @@ Before you get started, please make sure you have the following installed:
 
    **For Mac/Linux users** :apple: :penguin:
    ```bash
-   git clone https://github.com/reworkd/AgentGPT.git
-   cd AgentGPT
+   git clone https://github.com/Devopstrio/agent-gpt.git
+   cd agent-gpt
    ./setup.sh
    ```
    **For Windows users** :windows:
    ```bash
-   git clone https://github.com/reworkd/AgentGPT.git
-   cd AgentGPT
+   git clone https://github.com/Devopstrio/agent-gpt.git
+   cd agent-gpt
    ./setup.bat
    ```
 4. **Follow the setup instructions from the script** - add the appropriate API keys, and once all of the services are running, travel to [http://localhost:3000](http://localhost:3000) on your web-browser.
