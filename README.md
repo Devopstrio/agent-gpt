@@ -29,7 +29,7 @@ It will attempt to reach the goal by thinking of tasks to do, executing them, an
 ---
 
 ## ✨ Demo
-For the best demo experience, try [our site](https://agentgpt.reworkd.ai) directly :)
+For the best demo experience,
 
 [Demo Video](https://github.com/reworkd/AgentGPT/assets/50181239/5348e44a-29a5-4280-a06b-fe1429a8d99e)
 
@@ -38,10 +38,33 @@ For the best demo experience, try [our site](https://agentgpt.reworkd.ai) direct
 
 The easiest way to get started with AgentGPT is automatic setup CLI bundled with the project.
 The cli sets up the following for AgentGPT:
-- 🔐 [Environment variables](https://github.com/reworkd/AgentGPT/blob/main/.env.example) (and API Keys)
-- 🗂️ [Database](https://github.com/reworkd/AgentGPT/tree/main/db) (Mysql)
-- 🤖 [Backend](https://github.com/reworkd/AgentGPT/tree/main/platform) (FastAPI)
-- 🎨 [Frontend](https://github.com/reworkd/AgentGPT/tree/main/next) (Nextjs)
+The CLI automates the full deployment process, including:
+- 🔐 **Environment Configuration**: Seamless setup of required API keys and environment variables.
+- 🗂️ **Database Initialization**: Automatic provisioning of the MySQL database schema.
+- 🤖 **Backend Services**: Rapid deployment of the FastAPI-powered orchestration layer.
+- 🎨 **Frontend Interface**: Instant setup of the Next.js user interface.
+
+## 🏗️ Architecture
+Explore the core logic and architectural design of AgentGPT:
+
+<p align="center">
+  <img src="assets/image.png" width="800" alt="LLM Agents Architecture" />
+  <br>
+  <em>LLM Agents Workflow</em>
+</p>
+
+<p align="center">
+  <img src="assets/image copy.png" width="800" alt="Agent Task Flow" />
+  <br>
+  <em>Agent Task Prioritization and Execution Flow</em>
+</p>
+
+<p align="center">
+  <img src="assets/image copy 2.png" width="800" alt="Generic Agent Architecture" />
+  <br>
+  <em>Generic Agent Architecture Overview</em>
+</p>
+
 
 ## Prerequisites :point_up:
 
